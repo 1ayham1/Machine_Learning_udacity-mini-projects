@@ -15,6 +15,12 @@ Similar to the above, we have a set of emails, half of which were written by one
 - A list of strings. Each string is the text of an email, which has undergone some basic preprocessing
 - An initial code to split the dataset into training and testing sets. 
 
+## Dependencies and Run
+- scikit-learn
+- nltk : natural language toolkit
+
+> initially `run startup.py` from ../tools/ to download related datasets
+
 # Notes
 
 One particular feature of Naive Bayes is that it’s a good algorithm for working with text classification. When dealing with text, it’s very common to treat each unique word as a feature, and since the typical person’s vocabulary is many thousands of words, this makes for a large number of features. The `relative simplicity` of the algorithm and the `independent features assumption` of Naive Bayes make it a strong performer for classifying texts. 
